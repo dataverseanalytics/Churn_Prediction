@@ -1,0 +1,201 @@
+subscription_id,customer_id,customer_email,plan_id,plan_name,plan_price,billing_cycle,subscription_start_date,next_renewal_date,last_payment_date,payment_status,payment_failure_reason,payment_method,is_active,cancellation_date,retention_status,total_payments,failed_payments_count,last_retention_action_date
+sub_0001,cust_0001,alice.smith@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-09-10,2023-09-10,2023-09-09,success,,credit_card,true,,retained,13,0,
+sub_0002,cust_0002,bob.jones@outlook.com,plan_q_premium,Quarterly Premium,49.99,quarterly,2023-01-15,2023-04-15,2023-01-15,failed,Insufficient funds,debit_card,true,,at-risk,2,2,2023-04-16
+sub_0003,cust_0003,charlotte.zhao@yahoo.com,plan_y_enterprise,Yearly Enterprise,2999.99,yearly,2021-06-01,2022-06-01,2022-05-31,success,,bank_transfer,true,,retained,3,0,
+sub_0004,cust_0004,daniel.kim+1@company.com,plan_m_basic,Monthly Basic,0,monthly,2023-07-05,2023-08-05,2023-07-05,success,,other,true,,retained,1,0,
+sub_0005,cust_0005,eva.chen@live.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-12-10,2023-03-10,2023-03-09,success,,paypal,true,,retained,4,0,
+sub_0006,cust_0006,frank.turner@protonmail.com,plan_y_lite,Yearly Lite,99.99,yearly,2022-05-17,2023-05-17,2023-05-16,success,,credit_card,true,,retained,2,0,
+sub_0007,cust_0007,george.khan+promo@gmail.com,plan_m_basic,Monthly Basic,0.01,monthly,2023-08-01,2023-09-01,2023-08-31,success,,other,true,,retained,1,0,
+sub_0008,cust_0008,hannah.nguyen@icloud.com,plan_w_weekly,Weekly Access,3.99,weekly,2023-05-10,2023-05-17,2023-05-17,success,,credit_card,true,,retained,2,0,
+sub_0009,cust_0009,ian.martin@uni.edu,plan_w_weekly,Weekly Access,3.99,weekly,2023-04-02,2023-04-09,2023-04-09,failed,Card expired,paypal,true,,at-risk,1,2,2023-04-09
+sub_0010,cust_0010,julia.brown@company.co.uk,plan_y_enterprise,Yearly Enterprise,9999.99,yearly,2020-11-23,2021-11-23,2021-11-23,success,,bank_transfer,true,,retained,2,0,
+sub_0011,cust_0011,kevin.lee@outlook.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-02-20,2023-05-20,2023-05-19,failed,Payment gateway error,paypal,true,,at-risk,1,2,2023-05-20
+sub_0012,cust_0001,alice.smith@gmail.com,plan_y_lite,Yearly Lite,99.99,yearly,2023-03-10,2024-03-10,2023-03-10,success,,credit_card,true,,retained,1,0,
+sub_0013,cust_0012,lisa.wong@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-05-30,2023-05-30,2023-05-29,success,,credit_card,true,,retained,12,0,
+sub_0014,cust_0013,michael.jordan@nba.com,plan_y_enterprise,Yearly Enterprise,999.99,yearly,2019-07-01,2020-07-01,2020-06-30,success,,credit_card,true,,retained,5,0,
+sub_0015,cust_0014,nina.patel@zoho.com,plan_q_premium,Quarterly Premium,49.99,quarterly,2023-03-01,2023-06-01,2023-06-01,pending,Awaiting bank authorization,bank_transfer,true,,at-risk,2,1,2023-06-01
+sub_0016,cust_0015,oliver.meyer@web.de,plan_y_lite,Yearly Lite,99.99,yearly,2022-09-25,2023-09-25,2023-09-24,success,,paypal,true,,retained,1,0,
+sub_0017,cust_0016,peter.hall@aol.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-04-22,2023-05-22,2023-05-21,success,,credit_card,true,,retained,2,0,
+sub_0018,cust_0017,quinn.smith@fastmail.com,plan_w_weekly,Weekly Access,3.99,weekly,2023-06-11,2023-06-18,2023-06-18,failed,Insufficient funds,bank_transfer,true,,at-risk,1,2,2023-06-18
+sub_0019,cust_0018,rachel.harris@gmail.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-11-01,2023-02-01,2023-02-01,success,,paypal,true,,retained,5,0,
+sub_0020,cust_0019,stephanie.liu@company.jp,plan_m_basic,Monthly Basic,9.99,monthly,2023-01-13,2023-02-13,2023-02-12,success,,credit_card,true,,retained,2,0,
+sub_0021,cust_0020,thomas.fischer@t-online.de,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-07-23,2022-10-23,2022-10-22,success,,debit_card,true,,retained,3,0,
+sub_0022,cust_0021,uma.ramirez@company.mx,plan_y_enterprise,Yearly Enterprise,4999.99,yearly,2021-12-01,2022-12-01,2022-11-30,success,,bank_transfer,true,,retained,2,0,
+sub_0023,cust_0022,victor.brown@company.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-10-14,2022-11-14,2022-11-13,success,,paypal,true,,retained,4,0,
+sub_0024,cust_0023,wendy.morris@icloud.com,plan_w_weekly,Weekly Access,3.99,weekly,2023-03-22,2023-03-29,2023-03-28,success,,credit_card,true,,retained,2,0,
+sub_0025,cust_0024,xander.jones@company.fr,plan_y_lite,Yearly Lite,99.99,yearly,2021-09-17,2022-09-17,2022-09-16,success,,paypal,true,,retained,2,0,
+sub_0026,cust_0025,yara.silva@outlook.com.br,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-01-12,2023-04-12,2023-04-12,pending,Processing delay,debit_card,true,,at-risk,1,1,2023-04-13
+sub_0027,cust_0026,zane.wood@company.ie,plan_m_basic,Monthly Basic,9.99,monthly,2023-02-03,2023-03-03,2023-03-02,success,,credit_card,true,,retained,2,0,
+sub_0028,cust_0012,lisa.wong@gmail.com,plan_q_premium,Quarterly Premium,49.99,quarterly,2023-02-10,2023-05-10,2023-05-09,failed,Card declined,paypal,true,,at-risk,1,2,2023-05-10
+sub_0029,cust_0027,adam.wilson@hotmail.com,plan_w_weekly,Weekly Access,3.99,weekly,2023-07-07,2023-07-14,2023-07-14,success,,bank_transfer,true,,retained,2,0,
+sub_0030,cust_0028,brenda.nguyen@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-12-01,2023-01-01,2023-01-01,success,,paypal,true,,retained,7,0,
+sub_0031,cust_0029,carmen.garcia@company.es,plan_y_enterprise,Yearly Enterprise,9999.99,yearly,2022-01-03,2023-01-03,2023-01-02,success,,bank_transfer,true,,retained,2,0,
+sub_0032,cust_0030,derek.chan@company.sg,plan_y_lite,Yearly Lite,99.99,yearly,2023-04-01,2024-04-01,2023-04-01,success,,credit_card,true,,retained,1,0,
+sub_0033,cust_0031,elena.santos@company.pt,plan_m_basic,Monthly Basic,9.99,monthly,2023-03-05,2023-04-05,2023-04-04,success,,credit_card,true,,retained,2,0,
+sub_0034,cust_0032,fabio.rossi@company.it,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-08-15,2022-11-15,2022-11-15,success,,bank_transfer,true,,retained,3,0,
+sub_0035,cust_0033,grace.bell@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-05-11,2023-05-11,2023-05-10,success,,paypal,true,,retained,12,0,
+sub_0036,cust_0034,henry.gordon@company.ca,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-10-20,2023-01-20,2023-01-19,success,,bank_transfer,true,,retained,4,0,
+sub_0037,cust_0035,isabel.morales@company.cl,plan_m_basic,Monthly Basic,9.99,monthly,2023-06-17,2023-07-17,2023-07-16,success,,credit_card,true,,retained,2,0,
+sub_0038,cust_0036,jack.miller@company.com.au,plan_w_weekly,Weekly Access,3.99,weekly,2022-11-18,2022-11-25,2022-11-24,failed,Card expired,credit_card,true,,at-risk,1,2,2022-11-25
+sub_0039,cust_0037,karen.ong@company.sg,plan_y_enterprise,Yearly Enterprise,99999.99,yearly,2020-01-01,2021-01-01,2020-12-31,success,,bank_transfer,true,,retained,3,0,
+sub_0040,cust_0038,leo.baker@company.nz,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-03-13,2022-06-13,2022-06-13,success,,debit_card,true,,retained,3,0,
+sub_0041,cust_0039,mia.lopez@company.pe,plan_m_basic,Monthly Basic,9.99,monthly,2023-04-09,2023-05-09,2023-05-09,success,,paypal,true,,retained,2,0,
+sub_0042,cust_0040,nate.hughes@company.com,plan_q_premium,Quarterly Premium,49.99,quarterly,2021-07-16,2021-10-16,2021-10-15,success,,paypal,true,,retained,5,0,
+sub_0043,cust_0041,oscar.nguyen@company.vn,plan_y_enterprise,Yearly Enterprise,2999.99,yearly,2023-01-20,2024-01-20,2023-01-20,success,,credit_card,true,,retained,1,0,
+sub_0044,cust_0042,paula.gomez@company.ar,plan_m_basic,Monthly Basic,9.99,monthly,2023-07-02,2023-08-02,2023-08-01,success,,paypal,true,,retained,1,0,
+sub_0045,cust_0043,quincy.hall@company.us,plan_w_weekly,Weekly Access,3.99,weekly,2022-08-07,2022-08-14,2022-08-13,success,,credit_card,true,,retained,2,0,
+sub_0046,cust_0031,elena.santos@company.pt,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-02-10,2022-05-10,2022-05-10,success,,debit_card,true,,retained,3,0,
+sub_0047,cust_0044,ryan.bishop@company.co.za,plan_m_basic,Monthly Basic,9.99,monthly,2023-01-25,2023-02-25,2023-02-24,success,,paypal,true,,retained,2,0,
+sub_0048,cust_0045,sarah.lee@company.kr,plan_q_premium,Quarterly Premium,49.99,quarterly,2023-04-11,2023-07-11,2023-07-10,success,,debit_card,true,,retained,2,0,
+sub_0049,cust_0046,tom.williams@company.us,plan_y_enterprise,Yearly Enterprise,2999.99,yearly,2021-03-15,2022-03-15,2022-03-15,success,,credit_card,false,2022-04-01,churned,1,1,2022-04-01
+sub_0050,cust_0047,uma.ramirez@company.mx,plan_m_basic,Monthly Basic,9.99,monthly,2023-03-20,2023-04-20,2023-04-19,failed,Insufficient funds,credit_card,false,2023-05-01,churned,1,2,2023-05-01
+sub_2001,cust_3001,samantha.meyer+eu@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-04-17,2024-04-17,2024-04-17,success,,credit_card,true,,retained,12,0,
+sub_2002,cust_3002,lucas.schmidt@webmail.de,plan_y_enterprise,Yearly Enterprise,4999.99,yearly,2021-09-05,2024-09-05,2023-09-05,success,,bank_transfer,true,,retained,3,0,
+sub_2003,cust_3003,julie.chan+student@outlook.com,plan_w_weekly,Weekly Student,3.99,weekly,2024-03-12,2024-03-19,2024-03-12,success,,credit_card,true,,retained,2,0,
+sub_2004,cust_3004,diego.cardenas@company.mx,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-07-15,2024-07-15,2024-01-15,failed,Insufficient funds,debit_card,true,,at-risk,3,2,2024-01-20
+sub_2005,cust_3005,roberto.mancini@italianmail.it,plan_y_lite,Yearly Lite,19.99,yearly,2020-11-08,2023-11-08,2022-11-08,success,,paypal,false,2022-12-01,churned,2,1,2022-12-01
+sub_2006,cust_3006,alexis.dubois@orange.fr,plan_m_basic,Monthly Basic,9.99,monthly,2023-12-02,2024-12-02,2024-04-02,success,,credit_card,true,,retained,5,0,
+sub_2007,cust_3007,marta.garcia@webmail.es,plan_m_basic,Monthly Basic,0.01,monthly,2024-02-10,2024-03-10,2024-02-10,success,,other,true,,retained,1,0,
+sub_2008,cust_3008,anna.petrova@rambler.ru,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-10-01,2023-10-01,2023-07-01,failed,Payment gateway error,paypal,true,,at-risk,3,2,2023-07-01
+sub_2009,cust_3009,james.tan+hk@live.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-06-05,2023-06-05,2023-05-05,success,,credit_card,true,,retained,12,0,
+sub_2010,cust_3010,carla.rodriguez@empresa.cl,plan_y_enterprise,Yearly Enterprise,9999.99,yearly,2022-01-20,2023-01-20,2022-01-20,success,,bank_transfer,true,,retained,2,0,
+sub_2011,cust_3011,tomoko.suzuki@jp-mail.co.jp,plan_w_weekly,Weekly Student,3.99,weekly,2024-04-02,2024-04-09,2024-04-02,failed,Card expired,paypal,true,,at-risk,0,1,2024-04-03
+sub_2012,cust_3012,john.doe+us@company.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-03-14,2024-03-14,2023-12-14,success,,bank_transfer,true,,retained,4,0,
+sub_2013,cust_3013,stephanie.lee@gmail.com,plan_m_basic,Monthly Basic,0,monthly,2024-02-15,2024-03-15,2024-02-15,success,,other,true,,retained,1,0,
+sub_2014,cust_3014,marcelo.silva@empresa.com.br,plan_q_premium,Quarterly Premium,999.99,quarterly,2023-06-20,2024-06-20,2023-12-20,success,,paypal,true,,retained,4,0,
+sub_2015,cust_3015,liam.evans@outlook.co.uk,plan_y_enterprise,Yearly Enterprise,99999.99,yearly,2020-06-22,2021-06-22,2020-06-22,success,,credit_card,false,2021-07-01,churned,1,2,2021-07-01
+sub_2016,cust_3001,samantha.meyer+eu@gmail.com,plan_y_lite,Yearly Lite,19.99,yearly,2022-08-17,2023-08-17,2022-08-17,success,,credit_card,true,,retained,1,0,
+sub_2017,cust_3016,chen.wang@163.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-01-28,2024-01-28,2023-12-28,success,,paypal,true,,retained,11,0,
+sub_2018,cust_3017,daniel.nielsen@live.dk,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-11-16,2023-11-16,2022-11-16,pending,Awaiting confirmation,bank_transfer,true,,at-risk,0,1,2022-11-17
+sub_2019,cust_3018,eva.jones@icloud.com,plan_w_weekly,Weekly Student,3.99,weekly,2024-01-22,2024-01-29,2024-01-22,success,,credit_card,true,,retained,2,0,
+sub_2020,cust_3019,peter.hansen@protonmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-09-09,2023-09-09,2023-08-09,success,,credit_card,true,,retained,12,0,
+sub_2021,cust_3020,isabel.fernandez@empresa.es,plan_q_premium,Quarterly Premium,49.99,quarterly,2023-05-07,2024-05-07,2024-02-07,success,,debit_card,true,,retained,4,0,
+sub_2022,cust_3021,victor.ramos@company.com.ar,plan_y_enterprise,Yearly Enterprise,999.99,yearly,2023-08-14,2024-08-14,2023-08-14,success,,bank_transfer,true,,retained,1,0,
+sub_2023,cust_3022,olivia.taylor+1@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-08-23,2024-08-23,2024-04-23,success,,paypal,true,,retained,8,0,
+sub_2024,cust_3023,noah.smith+au@company.com.au,plan_q_standard,Quarterly Standard,39.99,quarterly,2024-01-05,2024-04-05,2024-01-05,failed,Insufficient funds,debit_card,true,,at-risk,0,1,2024-01-06
+sub_2025,cust_3024,emma.wilson+ca@yahoo.ca,plan_y_lite,Yearly Lite,19.99,yearly,2022-03-22,2023-03-22,2022-03-22,success,,credit_card,false,2023-03-25,churned,1,2,2023-03-25
+sub_2026,cust_3025,mia.hernandez@empresa.pe,plan_m_basic,Monthly Basic,9.99,monthly,2023-05-19,2024-05-19,2024-05-19,success,,credit_card,true,,retained,12,0,
+sub_2027,cust_3026,nina.keller@bluewin.ch,plan_m_basic,Monthly Basic,9.99,monthly,2022-07-15,2023-07-15,2023-07-15,success,,paypal,true,,retained,12,0,
+sub_2028,cust_3027,matteo.rossi@libero.it,plan_q_premium,Quarterly Premium,49.99,quarterly,2024-02-03,2024-05-03,2024-02-03,pending,Awaiting confirmation,bank_transfer,true,,at-risk,0,1,2024-02-04
+sub_2029,cust_3028,sophie.nguyen@vietmail.vn,plan_w_weekly,Weekly Student,3.99,weekly,2023-12-08,2023-12-15,2023-12-08,failed,Card expired,paypal,true,,at-risk,0,1,2023-12-09
+sub_2030,cust_3029,haruki.tanaka@jp-mail.co.jp,plan_y_enterprise,Yearly Enterprise,4999.99,yearly,2023-05-23,2024-05-23,2023-05-23,success,,bank_transfer,true,,retained,1,0,
+sub_2031,cust_3030,sofia.gonzalez@empresa.com.mx,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-09-26,2024-09-26,2023-09-26,success,,debit_card,true,,retained,1,0,
+sub_2032,cust_3031,benjamin.frank@company.de,plan_y_lite,Yearly Lite,19.99,yearly,2021-05-11,2022-05-11,2021-05-11,success,,paypal,false,2022-05-15,churned,1,2,2022-05-15
+sub_2033,cust_3032,leila.benali@webmail.ma,plan_m_basic,Monthly Basic,9.99,monthly,2023-03-10,2024-03-10,2024-03-10,success,,credit_card,true,,retained,12,0,
+sub_2034,cust_3033,sebastian.kim@naver.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-08-01,2024-08-01,2024-04-01,success,,paypal,true,,retained,8,0,
+sub_2035,cust_3034,natalie.miller@company.co.uk,plan_q_standard,Quarterly Standard,0,quarterly,2023-10-10,2024-01-10,2023-10-10,success,,other,true,,retained,1,0,
+sub_2036,cust_3035,olga.kuznetsova@rambler.ru,plan_w_weekly,Weekly Student,3.99,weekly,2024-03-10,2024-03-17,2024-03-10,success,,bank_transfer,true,,retained,1,0,
+sub_2037,cust_3036,jack.murphy+ie@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-05-12,2024-05-12,2024-05-12,success,,credit_card,true,,retained,12,0,
+sub_2038,cust_3037,lucia.martinez@webmail.es,plan_m_basic,Monthly Basic,9.99,monthly,2024-03-01,2024-04-01,2024-03-01,success,,paypal,true,,retained,1,0,
+sub_2039,cust_3038,alexander.fischer@company.de,plan_y_enterprise,Yearly Enterprise,4999.99,yearly,2022-08-13,2023-08-13,2022-08-13,success,,bank_transfer,false,2023-08-20,churned,1,2,2023-08-20
+sub_2040,cust_3039,julia.perez+mx@gmail.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-12-30,2024-03-30,2023-12-30,pending,Awaiting confirmation,debit_card,true,,at-risk,0,1,2023-12-31
+sub_2041,cust_3040,mary.brown@company.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-11-02,2023-11-02,2023-10-02,success,,credit_card,true,,retained,12,0,
+sub_2042,cust_3041,daniela.romero@empresa.com.co,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-12-18,2023-12-18,2023-09-18,failed,Insufficient funds,paypal,true,,at-risk,3,1,2023-09-19
+sub_2043,cust_3042,aaron.clark@webmail.ca,plan_y_enterprise,Yearly Enterprise,999.99,yearly,2023-07-03,2024-07-03,2023-07-03,success,,bank_transfer,true,,retained,1,0,
+sub_2044,cust_3043,lucy.white@company.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-12-14,2024-12-14,2024-03-14,success,,paypal,true,,retained,3,0,
+sub_2045,cust_3044,william.jones@gmail.com,plan_q_standard,Quarterly Standard,39.99,quarterly,2023-07-23,2024-07-23,2023-10-23,success,,bank_transfer,true,,retained,4,0,
+sub_2046,cust_3045,gabriel.santos@empresa.com.br,plan_m_basic,Monthly Basic,9.99,monthly,2022-01-24,2023-01-24,2023-01-24,success,,credit_card,false,2023-01-31,churned,12,1,2023-01-31
+sub_2047,cust_3046,mateo.gomez@webmail.co,plan_w_weekly,Weekly Student,3.99,weekly,2024-02-23,2024-03-01,2024-02-23,failed,Card expired,credit_card,true,,at-risk,0,2,2024-02-24
+sub_2048,cust_3047,irene.choi@naver.com,plan_y_enterprise,Yearly Enterprise,9999.99,yearly,2021-03-17,2022-03-17,2021-03-17,success,,credit_card,false,2022-03-25,churned,1,2,2022-03-25
+sub_2049,cust_3048,hannah.wright+uk@outlook.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-06-08,2024-06-08,2024-06-08,success,,credit_card,true,,retained,12,0,
+sub_2050,cust_3049,andrea.russo@libero.it,plan_y_lite,Yearly Lite,19.99,yearly,2022-05-12,2023-05-12,2022-05-12,success,,paypal,false,2023-05-15,churned,1,2,2023-05-15
+sub_1031a,cust_2102a,julia.hernandez@outlook.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2022-03-28,2024-04-28,2024-03-28,success,,credit_card,true,,retained,12,0,
+sub_1032b,cust_2102b,akshay.r@turinglabs.co,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2023-09-15,2024-06-15,2024-03-15,failed,Insufficient funds on account,paypal,true,,at-risk,3,2,2024-04-03
+sub_1033c,cust_2102c,erika.jones@gmail.com,plan_y_enterprise,Yearly Enterprise Plan,2499.99,yearly,2021-06-01,2024-06-01,2024-06-01,success,,bank_transfer,true,,retained,3,0,
+sub_1034d,cust_2102d,lucas.chen@globalmail.fr,plan_m_basic,Monthly Basic Plan,0,monthly,2024-03-01,2024-04-01,,pending,,other,true,,at-risk,0,1,2024-03-20
+sub_1035e,cust_2102e,peter.brown@company.de,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2022-12-11,2024-06-11,2024-03-11,success,,debit_card,true,,retained,7,0,
+sub_1036f,cust_2102f,sumit.roy+1@gmail.com,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-29,2024-04-05,2024-03-29,failed,Card expired,credit_card,true,,at-risk,1,1,2024-04-03
+sub_1037g,cust_2102g,karen.nguyen@outlook.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-07-15,2024-04-15,2024-03-15,success,,paypal,true,,retained,8,0,
+sub_1038h,cust_2102h,andrew.park@company.com,plan_y_enterprise,Yearly Enterprise Plan,9999.99,yearly,2022-05-03,2024-05-03,2024-05-03,success,,bank_transfer,true,,retained,2,0,
+sub_1039i,cust_2102i,marcela.garcia@correo.mx,plan_y_lite,Yearly Lite Plan,79.99,yearly,2023-06-20,2024-06-20,2023-06-20,success,,credit_card,true,,retained,1,0,
+sub_1040j,cust_2102j,david.stewart@outlook.com,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2023-02-19,2024-05-19,2024-02-19,success,,paypal,true,,retained,4,0,
+sub_1041k,cust_2102k,anna.murphy@icloud.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2022-08-10,2024-04-10,2024-03-10,success,,credit_card,true,,retained,19,0,
+sub_1042l,cust_2102l,tom.lee@company.jp,plan_y_enterprise,Yearly Enterprise Plan,19999.99,yearly,2021-04-12,2024-04-12,2024-04-12,success,,bank_transfer,true,,retained,3,0,
+sub_1043m,cust_2102m,sophia.carter@yahoo.com,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2023-06-11,2024-06-11,2024-03-11,failed,Payment gateway error,debit_card,true,,at-risk,2,1,2024-03-27
+sub_1044n,cust_2102n,emily.wilson@fastmail.com,plan_m_basic,Monthly Basic Plan,0.01,monthly,2024-04-01,2024-05-01,,pending,,other,true,,at-risk,0,1,2024-04-02
+sub_1045o,cust_2102o,daniel.fernandez@company.com.au,plan_y_lite,Yearly Lite Plan,79.99,yearly,2022-04-10,2024-04-10,2023-04-10,success,,credit_card,true,,retained,2,0,
+sub_1046p,cust_2102p,lina.martinez@correo.co,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2021-09-21,2024-06-21,2024-03-21,success,,bank_transfer,true,,retained,10,0,
+sub_1047q,cust_2102q,vincent.chan@company.sg,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-20,2024-03-27,2024-03-20,success,,paypal,true,,retained,2,0,
+sub_1048r,cust_2102r,melissa.hall@outlook.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-11-06,2024-04-06,2024-03-06,success,,credit_card,true,,retained,5,0,
+sub_1049s,cust_2102s,john.cooke@company.co.uk,plan_y_enterprise,Yearly Enterprise Plan,999.99,yearly,2022-01-15,2024-01-15,2024-01-15,success,,credit_card,true,,retained,2,0,
+sub_1050t,cust_2102t,olivia.meyer@company.nl,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-04-02,2024-04-09,2024-04-02,failed,Insufficient funds,paypal,true,,at-risk,1,2,2024-04-04
+sub_1051u,cust_2102u,joshua.lee@company.kr,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2022-07-25,2024-07-25,2024-04-25,success,,paypal,true,,retained,7,0,
+sub_1052v,cust_2102v,jasmine.ramirez@yahoo.com,plan_y_lite,Yearly Lite Plan,79.99,yearly,2023-05-22,2024-05-22,2023-05-22,success,,debit_card,true,,retained,1,0,
+sub_1053w,cust_2102w,michael.foster@company.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-03-18,2024-04-18,2024-03-18,success,,credit_card,true,,retained,13,0,
+sub_1054x,cust_2102x,sofia.martin@company.es,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2023-07-03,2024-07-03,2024-04-03,success,,paypal,true,,retained,4,0,
+sub_1055y,cust_2102y,jake.harrison@company.ca,plan_m_basic,Monthly Basic Plan,9.99,monthly,2022-11-05,2024-04-05,2024-03-05,success,,credit_card,true,,retained,17,0,
+sub_1056z,cust_2102z,isabelle.richter@company.ch,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2023-04-10,2024-04-10,2024-01-10,failed,Bank account closed,bank_transfer,true,,at-risk,2,1,2024-04-01
+sub_1057aa,cust_2102aa,liam.wilson@gmail.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-08-21,2024-04-21,2024-03-21,success,,credit_card,true,,retained,8,0,
+sub_1058ab,cust_2102ab,elena.gomez@company.ar,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-17,2024-03-24,2024-03-17,success,,credit_card,true,,retained,2,0,
+sub_1059ac,cust_2102ac,owen.jenkins@company.nz,plan_y_enterprise,Yearly Enterprise Plan,4999.99,yearly,2021-09-30,2024-09-30,2024-09-30,success,,bank_transfer,true,,retained,3,0,
+sub_1060ad,cust_2102ad,eva.schmidt@company.de,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2023-08-01,2024-08-01,,pending,,debit_card,true,,at-risk,0,2,2024-04-05
+sub_1061ae,cust_2102ae,nicole.anderson@company.ie,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2022-05-13,2024-05-13,2024-02-13,failed,Insufficient funds,debit_card,true,,at-risk,4,1,2024-02-14
+sub_1062af,cust_2102af,stephen.young@gmail.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-01-09,2024-04-09,2024-03-09,success,,paypal,true,,retained,15,0,
+sub_1063ag,cust_2102ag,george.coleman@company.com,plan_y_lite,Yearly Lite Plan,0,yearly,2024-04-01,2025-04-01,,pending,,other,true,,at-risk,0,1,2024-04-03
+sub_1064ah,cust_2102ah,emilia.grant@company.fi,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-30,2024-04-06,2024-03-30,success,,bank_transfer,true,,retained,1,0,
+sub_1065ai,cust_2102ai,simon.evans@company.com,plan_y_enterprise,Yearly Enterprise Plan,99999.99,yearly,2019-12-12,2024-12-12,2024-12-12,success,,credit_card,true,,retained,5,0,
+sub_1066aj,cust_2102aj,claire.bennett@company.fr,plan_m_basic,Monthly Basic Plan,9.99,monthly,2022-06-05,2024-04-05,2024-03-05,success,,credit_card,true,,retained,16,0,
+sub_1067ak,cust_2102ak,martin.garcia@correo.es,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2022-11-18,2024-05-18,2024-02-18,success,,debit_card,true,,retained,6,0,
+sub_1068al,cust_2102al,harry.clark@company.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-05-01,2024-04-01,2024-03-01,success,,paypal,true,,retained,11,0,
+sub_1069am,cust_2102am,lucia.santos@company.br,plan_y_lite,Yearly Lite Plan,79.99,yearly,2021-10-31,2024-10-31,2023-10-31,success,,bank_transfer,true,,retained,3,0,
+sub_1070an,cust_2102an,gabriel.rossi@company.it,plan_q_premium,Quarterly Premium Plan,49.99,quarterly,2023-03-26,2024-06-26,2024-03-26,success,,bank_transfer,true,,retained,4,0,
+sub_1071ao,cust_2102ao,rachel.evans@company.com,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-16,2024-03-23,2024-03-16,success,,credit_card,true,,retained,2,0,
+sub_1072ap,cust_2102ap,matthew.wilson@company.co.za,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-09-18,2024-04-18,2024-03-18,success,,paypal,true,,retained,7,0,
+sub_1073aq,cust_2102aq,victor.hughes@company.com,plan_y_enterprise,Yearly Enterprise Plan,99999.99,yearly,2020-05-20,2024-05-20,2024-05-20,success,,bank_transfer,true,,retained,4,0,
+sub_1074ar,cust_2102ar,natalie.baker@gmail.com,plan_q_standard,Quarterly Standard Plan,39.99,quarterly,2023-05-09,2024-05-09,2024-02-09,success,,paypal,true,,retained,3,0,
+sub_1075as,cust_2102as,kristen.harris@company.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2024-03-09,2024-04-09,2024-03-09,failed,Card declined by issuer,credit_card,true,,at-risk,1,2,2024-03-10
+sub_1076at,cust_2102at,dylan.hughes@company.com,plan_q_premium,Quarterly Premium Plan,0.01,quarterly,2024-04-04,2024-07-04,,pending,,other,true,,at-risk,0,1,2024-04-05
+sub_1077au,cust_2102au,alex.hernandez@company.com,plan_y_enterprise,Yearly Enterprise Plan,9999.99,yearly,2022-07-01,2024-07-01,2024-07-01,success,,credit_card,true,,retained,2,0,
+sub_1078av,cust_2102av,megan.lee@company.com,plan_m_basic,Monthly Basic Plan,9.99,monthly,2023-02-25,2024-04-25,2024-03-25,success,,paypal,true,,retained,13,0,
+sub_1079aw,cust_2102aw,ethan.roberts@company.com,plan_w_weekly,Weekly Lite Plan,3.99,weekly,2024-03-31,2024-04-07,2024-03-31,success,,credit_card,true,,retained,1,0,
+sub_2001,cust_4001,lucas.meyer@berlinmail.de,plan_m_basic,Monthly Basic,9.99,monthly,2022-11-14,2022-12-14,2022-11-14,success,,credit_card,true,,retained,11,0,
+sub_2002,cust_4002,emma.rivera@outlook.com,plan_q_standard,Quarterly Standard,44.99,quarterly,2022-10-06,2023-01-06,2022-10-06,failed,Insufficient funds in account,paypal,true,,at-risk,2,2,2022-12-01
+sub_2003,cust_4003,danielle.nguyen@gmail.com,plan_y_enterprise,Yearly Enterprise,4899.99,yearly,2021-08-21,2022-08-21,2021-08-21,success,,bank_transfer,true,,retained,4,0,
+sub_2004,cust_4004,jake.foster@webmail.com,plan_w_weekly,Weekly Lite,3.99,weekly,2023-02-03,2023-02-10,2023-02-03,success,,credit_card,true,,retained,2,0,
+sub_2005,cust_4005,sophia.chan@protonmail.ch,plan_m_basic,Monthly Basic,0.01,monthly,2023-01-21,2023-02-21,2023-01-21,success,,other,true,,retained,1,0,
+sub_2006,cust_4006,liam.jung@seoulmail.kr,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-04-15,2022-07-15,2022-04-15,pending,Awaiting bank confirmation,bank_transfer,true,,at-risk,0,1,2022-07-01
+sub_2007,cust_4007,lucia.rossi@italy.com,plan_y_lite,Yearly Lite,29.99,yearly,2021-06-09,2022-06-09,2021-06-09,success,,credit_card,true,,retained,3,0,
+sub_2008,cust_4008,alexander.klein@aol.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-02-28,2022-03-28,2022-02-28,success,,paypal,true,,retained,10,0,
+sub_2009,cust_4009,hannah.martin@live.com,plan_w_weekly,Weekly Lite,0,weekly,2023-04-11,2023-04-18,2023-04-11,success,,other,true,,retained,1,0,
+sub_2010,cust_4010,mario.silva@brasilmail.com,plan_y_enterprise,Yearly Enterprise,9999.99,yearly,2020-12-19,2021-12-19,2020-12-19,success,,bank_transfer,true,,retained,6,0,
+sub_2011,cust_4011,marie.dupont@orange.fr,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-09-09,2022-12-09,2022-09-09,failed,Card expired,debit_card,true,,at-risk,1,2,2022-12-01
+sub_2012,cust_4012,yusuf.sahin@turkmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-03-15,2023-04-15,2023-03-15,success,,credit_card,true,,retained,6,0,
+sub_2013,cust_4012,yusuf.sahin@turkmail.com,plan_y_lite,Yearly Lite,29.99,yearly,2021-07-21,2022-07-21,2021-07-21,success,,paypal,true,,retained,2,0,
+sub_2014,cust_4013,eva.schmidt@posteo.de,plan_m_basic,Monthly Basic,9.99,monthly,2022-05-30,2022-06-30,2022-05-30,success,,credit_card,true,,retained,8,0,
+sub_2015,cust_4014,sofia.garcia@correo.mx,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-02-03,2022-05-03,2022-02-03,pending,Awaiting payment verification,debit_card,true,,at-risk,0,2,2022-05-01
+sub_2016,cust_4015,oliver.hall@icloud.com,plan_y_enterprise,Yearly Enterprise,999.99,yearly,2021-01-14,2022-01-14,2021-01-14,success,,credit_card,true,,retained,5,0,
+sub_2017,cust_4016,nina.bakker@xs4all.nl,plan_w_weekly,Weekly Lite,3.99,weekly,2023-05-11,2023-05-18,2023-05-11,failed,Payment gateway error,paypal,true,,at-risk,0,1,2023-05-12
+sub_2018,cust_4017,mateo.ramos@terra.es,plan_m_basic,Monthly Basic,9.99,monthly,2022-08-01,2022-09-01,2022-08-01,success,,paypal,true,,retained,7,0,
+sub_2019,cust_4018,amelia.evans@yahoo.com,plan_y_enterprise,Yearly Enterprise,3999.99,yearly,2022-03-14,2023-03-14,2022-03-14,success,,bank_transfer,true,,retained,3,0,
+sub_2020,cust_4019,anastasia.petrova@yandex.ru,plan_y_lite,Yearly Lite,29.99,yearly,2021-09-19,2022-09-19,2021-09-19,success,,paypal,true,,retained,2,0,
+sub_2021,cust_4020,ethan.walker@fastmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-06-26,2022-07-26,2022-06-26,success,,credit_card,true,,retained,9,0,
+sub_2022,cust_4021,olga.morozova@mail.ru,plan_q_standard,Quarterly Standard,44.99,quarterly,2022-07-18,2022-10-18,2022-07-18,failed,Card declined by bank,bank_transfer,true,,at-risk,2,1,2022-08-01
+sub_2023,cust_4022,henry.clark@zoho.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-03-05,2022-04-05,2022-03-05,success,,credit_card,true,,retained,7,0,
+sub_2024,cust_4023,choi.soojin@naver.com,plan_w_weekly,Weekly Lite,3.99,weekly,2023-06-14,2023-06-21,2023-06-14,success,,credit_card,true,,retained,2,0,
+sub_2025,cust_4024,james.murphy@bt.com,plan_y_enterprise,Yearly Enterprise,5899.99,yearly,2020-09-02,2021-09-02,2020-09-02,success,,credit_card,true,,retained,7,0,
+sub_2026,cust_4025,valeria.gutierrez@outlook.es,plan_m_basic,Monthly Basic,9.99,monthly,2022-10-11,2022-11-11,2022-10-11,success,,paypal,true,,retained,8,0,
+sub_2027,cust_4026,kai.wang@163.com,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-03-16,2022-06-16,2022-03-16,failed,Insufficient funds,paypal,true,,at-risk,1,2,2022-05-01
+sub_2028,cust_4027,lisa.murakami@mail.jp,plan_y_lite,Yearly Lite,29.99,yearly,2021-11-05,2022-11-05,2021-11-05,success,,bank_transfer,true,,retained,2,0,
+sub_2029,cust_4028,martin.schulz@t-online.de,plan_m_basic,Monthly Basic,9.99,monthly,2023-02-12,2023-03-12,2023-02-12,success,,paypal,true,,retained,5,0,
+sub_2030,cust_4029,mia.kowalski@onet.pl,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-12-01,2023-03-01,2022-12-01,failed,Payment gateway error,debit_card,true,,at-risk,0,2,2022-12-15
+sub_2031,cust_4030,samuel.taylor@outlook.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-11-25,2022-12-25,2022-11-25,success,,credit_card,true,,retained,12,0,
+sub_2032,cust_4031,elena.morales@correo.pe,plan_w_weekly,Weekly Lite,3.99,weekly,2023-07-01,2023-07-08,2023-07-01,success,,credit_card,true,,retained,2,0,
+sub_2033,cust_4032,frederik.van.der.veen@ziggo.nl,plan_y_enterprise,Yearly Enterprise,99999.99,yearly,2018-03-14,2019-03-14,2018-03-14,success,,bank_transfer,true,,retained,13,0,
+sub_2034,cust_4033,julia.smith@msn.com,plan_q_standard,Quarterly Standard,44.99,quarterly,2022-08-22,2022-11-22,2022-08-22,failed,Card expired,debit_card,true,,at-risk,1,2,2022-11-19
+sub_2035,cust_4034,thomas.brown@icloud.com,plan_y_lite,Yearly Lite,29.99,yearly,2021-12-21,2022-12-21,2021-12-21,success,,paypal,true,,retained,2,0,
+sub_2036,cust_4035,erik.andersen@live.dk,plan_m_basic,Monthly Basic,0,monthly,2023-01-10,2023-02-10,2023-01-10,success,,other,true,,retained,1,0,
+sub_2037,cust_4036,peter.wilson@bt.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-03-20,2022-04-20,2022-03-20,success,,credit_card,true,,retained,8,0,
+sub_2038,cust_4037,andrea.fontana@tim.it,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-07-04,2022-10-04,2022-07-04,pending,Awaiting payment verification,bank_transfer,true,,at-risk,0,1,2022-10-01
+sub_2039,cust_4038,emily.jones@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-02-19,2023-03-19,2023-02-19,success,,credit_card,true,,retained,4,0,
+sub_2040,cust_4039,sebastian.lewis@zoho.com,plan_y_enterprise,Yearly Enterprise,1999.99,yearly,2022-05-29,2023-05-29,2022-05-29,success,,bank_transfer,true,,retained,3,0,
+sub_2041,cust_4040,olivia.hughes@mail.com,plan_w_weekly,Weekly Lite,3.99,weekly,2023-08-02,2023-08-09,2023-08-02,failed,Card expired,credit_card,true,,at-risk,1,2,2023-08-02
+sub_2042,cust_4041,lucia.hernandez@correo.ec,plan_m_basic,Monthly Basic,0.01,monthly,2023-03-22,2023-04-22,2023-03-22,success,,other,true,,retained,1,0,
+sub_2043,cust_4042,aaron.mitchell@protonmail.com,plan_y_enterprise,Yearly Enterprise,8999.99,yearly,2020-03-18,2021-03-18,2020-03-18,success,,bank_transfer,true,,retained,6,0,
+sub_2044,cust_4043,sara.murphy@eir.ie,plan_m_basic,Monthly Basic,9.99,monthly,2022-09-07,2022-10-07,2022-09-07,success,,paypal,true,,retained,5,0,
+sub_2045,cust_4044,kristin.johansson@telia.se,plan_q_premium,Quarterly Premium,49.99,quarterly,2022-09-25,2022-12-25,2022-09-25,pending,Awaiting bank confirmation,bank_transfer,true,,at-risk,0,1,2022-12-01
+sub_2046,cust_4045,david.lee@163.com,plan_m_basic,Monthly Basic,9.99,monthly,2022-04-03,2022-05-03,2022-04-03,success,,credit_card,true,,retained,7,0,
+sub_2047,cust_4017,mateo.ramos@terra.es,plan_w_weekly,Weekly Lite,3.99,weekly,2023-05-18,2023-05-25,2023-05-18,failed,Card expired,credit_card,true,,at-risk,0,1,2023-05-21
+sub_2048,cust_4046,maxime.leblanc@free.fr,plan_m_basic,Monthly Basic,9.99,monthly,2023-01-03,2023-02-03,2023-01-03,success,,paypal,true,,retained,4,0,
+sub_2049,cust_4047,marco.ricci@alice.it,plan_q_standard,Quarterly Standard,39.99,quarterly,2022-07-29,2022-10-29,2022-07-29,failed,Insufficient funds in account,debit_card,true,,at-risk,1,2,2022-10-01
+sub_2050,cust_4048,sofia.ivanova@rambler.ru,plan_y_enterprise,Yearly Enterprise,99999.99,yearly,2017-07-11,2018-07-11,2017-07-11,success,,credit_card,true,,retained,13,0,
+sub_1027,cust_2045,emily.tan+asia2024@gmail.com,plan_m_basic,Monthly Basic,9.99,monthly,2023-08-16,2024-08-16,2024-07-16,success,,credit_card,true,,retained,12,0,

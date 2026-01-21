@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Renewal Risk Assessment</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="icon">📊</span>
+                    Membership Renewal Risk Assessment
+                </h1>
+                <p class="subtitle">Evaluate and categorize member renewal risk with configurable probability scoring
+                </p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Control Panel -->
+            <div class="control-panel">
+                <div class="panel-section prediction-mode-section">
+                    <h2 class="section-title">Prediction Mode</h2>
+                    <div class="mode-toggle-container">
+                        <span class="mode-label">Rule-Based</span>
+                        <label class="switch">
+                            <input type="checkbox" id="mlModeToggle">
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="mode-label">Machine Learning</span>
+                    </div>
+                </div>
+
+                <div class="panel-section" id="attributesSection">
+                    <h2 class="section-title">Attribute Selection</h2>
+                    <p class="section-description">Select attributes to include in risk calculation</p>
+
+                    <div class="attributes-grid" id="attributesGrid">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <div class="panel-section" id="weightsSection">
+                    <h2 class="section-title">Weight Configuration</h2>
+                    <p class="section-description">Adjust the importance of each attribute (total must equal 100%)</p>
+
+                    <div class="weights-container" id="weightsContainer">
+                        <!-- Dynamically populated -->
+                    </div>
+
+                    <div class="weight-total">
+                        <span>Total Weight:</span>
+                        <span id="totalWeight" class="total-value">100%</span>
+                    </div>
+                </div>
+
+                <div class="panel-section">
+                    <button class="btn btn-primary" id="calculateBtn">
+                        <span class="btn-icon">🎯</span>
+                        Calculate Risk Scores
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Panel -->
+            <div class="results-panel">
+                <div class="panel-section">
+                    <h2 class="section-title">Risk Assessment Results</h2>
+
+                    <!-- Statistics Cards -->
+                    <div class="stats-grid" id="statsGrid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="totalMembers">-</div>
+                            <div class="stat-label">Total Members</div>
+                        </div>
+                        <div class="stat-card stat-low">
+                            <div class="stat-value" id="lowRisk">-</div>
+                            <div class="stat-label">Low Risk (≤30%)</div>
+                        </div>
+                        <div class="stat-card stat-medium">
+                            <div class="stat-value" id="mediumRisk">-</div>
+                            <div class="stat-label">Medium Risk (31-60%)</div>
+                        </div>
+                        <div class="stat-card stat-high">
+                            <div class="stat-value" id="highRisk">-</div>
+                            <div class="stat-label">High Risk (≥61%)</div>
+                        </div>
+                    </div>
+
+                    <!-- Chart -->
+                    <div class="chart-container">
+                        <canvas id="riskChart"></canvas>
+                    </div>
+
+                    <!-- Members Table -->
+                    <div class="table-container">
+                        <table class="members-table" id="membersTable">
+                            <thead>
+                                <tr>
+                                    <th>Member ID</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Invoice Balance</th>
+                                    <th>Risk Score</th>
+                                    <th>Risk Category</th>
+                                </tr>
+                            </thead>
+                            <tbody id="membersTableBody">
+                                <tr>
+                                    <td colspan="6" class="loading-message">
+                                        Click "Calculate Risk Scores" to begin assessment
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Membership Renewal Risk Assessment System v1.0 | Built with Flask & Modern Web Technologies</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>
